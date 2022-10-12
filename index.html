@@ -10,9 +10,9 @@
     <div class="urna">
         <div class="tela" >
 
-            <div class="d-1">
-                <div class="d-1-left">
-                    <div class="d-1-1">
+            <div class="d-1" >
+                <div class="d-1-left" >
+                    <div class="d-1-1" style="visibility: hidden;">
                         <span>SEU VOTO PARA</span>
                     </div>
                     <div class="d-1-2">
@@ -23,26 +23,26 @@
                         <div class="numero"></div>
                     </div>
                     
-                    <div class="d-1-4"  >
+                    <div class="d-1-4" style="visibility: hidden;">
                         Nome: FULANO DE TAL<br/>
                         Partido: QQQ<br/>
                         Vice-Prefeito: BELTRANO DE TAL
                     </div>
                 </div>
 
-                <div class="d-1-right" >
+                <div class="d-1-right" style="visibility: hidden;">
                     <div class="d-1-image">
                         <img src="images/valentina.jpeg" alt="" />
                         Prefeito
                     </div>
                     <div class="d-1-image small">
-                        <img src="images/isadora.jpeg"" />
+                        <img src="images/isadora.jpeg" />
                         Vice-Prefeito
                     </div>
                 </div>
             </div>
 
-            <div class="d-2" >
+            <div class="d-2" style="visibility: hidden;">
                 Aperte a tela:<br/>
                 CONFIRMA para CONFIRMAR este voto<br/>
                 CORRIGE para REINICIAR este voto
@@ -51,22 +51,22 @@
         </div>
         <div class="teclado">
             <div class="teclado--linha">
-                <div class="teclado--botao" onclick="clicou('1')">1</div>
-                <div class="teclado--botao" onclick="clicou('2')">2</div>
-                <div class="teclado--botao" onclick="clicou('3')">3</div>
+                <div class="teclado--botao" id="1" onclick="clicou(this.id)">1</div>
+                <div class="teclado--botao" id="2" onclick="clicou(this.id)">2</div>
+                <div class="teclado--botao" id="3" onclick="clicou(this.id)">3</div>
             </div>
             <div class="teclado--linha">
-                <div class="teclado--botao" onclick="clicou('4')">4</div>
-                <div class="teclado--botao" onclick="clicou('5')">5</div>
-                <div class="teclado--botao" onclick="clicou('6')">6</div>
+                <div class="teclado--botao" id="4" onclick="clicou(this.id)">4</div>
+                <div class="teclado--botao" id="5" onclick="clicou(this.id)">5</div>
+                <div class="teclado--botao" id="6" onclick="clicou(this.id)">6</div>
             </div>
             <div class="teclado--linha">
-                <div class="teclado--botao" onclick="clicou('7')">7</div>
-                <div class="teclado--botao" onclick="clicou('8')">8</div>
-                <div class="teclado--botao" onclick="clicou('9')">9</div>
+                <div class="teclado--botao" id="7" onclick="clicou(this.id)">7</div>
+                <div class="teclado--botao" id="8" onclick="clicou(this.id)">8</div>
+                <div class="teclado--botao" id="9" onclick="clicou(this.id)">9</div>
             </div>
             <div class="teclado--linha">
-                <div class="teclado--botao" onclick="clicou('0')">0</div>
+                <div class="teclado--botao" id="0" onclick="clicou(this.id)">0</div>
             </div>
             <div class="teclado--linha">
                 <div class="teclado--botao botao--branco" onclick="branco()">BRANCO</div>

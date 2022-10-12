@@ -85,7 +85,8 @@ let etapas = [
                 nome: 'Lucas Eduardo',
                 partido: 'Partido The Mudelos',
                 fotos:[
-                    {url: 'imagens/lucas.jpg', legenda: 'Presidente da Republica'}
+                    {url: 'imagens/lucas.jpg', legenda: 'Presidente da Republica'},
+                    {url: 'imagens/enzo.jpg', legenda: 'Vice Presidente'}
                 ]
             },
             {
@@ -93,7 +94,8 @@ let etapas = [
                 nome: 'Áilla Almeida',
                 partido: 'Partido The Mudelos',
                 fotos:[
-                    {url: 'imagens/ailla.jpg', legenda: 'Presidente da Republica'}
+                    {url: 'imagens/ailla.jpg', legenda: 'Presidente da Republica'},
+                    {url: 'imagens/raila.jpg', legenda: 'Vice Presidente'}
                 ]
             },
             {
@@ -101,23 +103,26 @@ let etapas = [
                 nome: 'Nathalia Raquel',
                 partido: 'Partido The Mudelos',
                 fotos:[
-                    {url: 'imagens/nathalia.jpg', legenda: 'Presidente da Republica'}
+                    {url: 'imagens/nathalia.jpg', legenda: 'Presidente da Republica'},
+                    {url: 'imagens/maria.jpg', legenda: 'Vice Presidente'}
                 ]
             },
             {
-                numero: '31',
+                numero: '99',
                 nome: 'Nathan Fellipe',
                 partido: 'Partido The Mudelos',
                 fotos:[
-                    {url: 'imagens/nathan.jpg', legenda: 'Presidente da Republica'}
+                    {url: 'imagens/nathan.jpg', legenda: 'Presidente da Republica'},
+                    {url: 'imagens/saulo.jpg', legenda: 'Vice Presidente'}
                 ]
             },
             {
-                numero: '29',
+                numero: '26',
                 nome: 'Wilke Meireles',
                 partido: 'Partido The Mudelos',
                 fotos:[
-                    {url: 'imagens/wilke.jpg', legenda: 'Presidente da Republica'}
+                    {url: 'imagens/wilke.jpg', legenda: 'Presidente da Republica'},
+                    {url: 'imagens/natanael.jpg', legenda: 'Vice Presidente'}
                 ]
             }
         ]
