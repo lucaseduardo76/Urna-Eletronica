@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="assets/templat/style.css" />
 </head>
 <body>
+    <div class="test">
+        <div class="container-candidatos">
+            <div class="dep-estaduais">
+                <div class="titulo">DEPUTADOS ESTADUAIS</div>
+                <div class="container-candidatos"></div>
+            </div>
+
+            <div class="dep-federais">
+                <div class="titulo">DEPUTADOS FEDRAIS</div>
+                <div class="container-candidatos"></div>
+            </div>
+
+            <div class="presidente">
+                <div class="titulo">PRESIDENTES</div>
+                <div class="container-candidatos"></div>
+            </div>
+        </div>
+    </div>
     <div class="urna">
         <div class="tela" >
 
@@ -20,24 +38,25 @@
                     </div>
                     <div class="d-1-3">
                         <div class="numero pisca"></div>
-                        <div class="numero"></div>
+                        <div class="numero"></div>              
+                        
                     </div>
                     
                     <div class="d-1-4" style="visibility: hidden;">
-                        Nome: FULANO DE TAL<br/>
-                        Partido: QQQ<br/>
+                        Nome: <span>FULANO DE TAL</span><br/>
+                        Partido: <span>FULANO DE TAL</span><br/>
                         Vice-Prefeito: BELTRANO DE TAL
                     </div>
                 </div>
 
-                <div class="d-1-right" style="visibility: hidden;">
-                    <div class="d-1-image">
-                        <img src="images/valentina.jpeg" alt="" />
-                        Prefeito
+                <div class="d-1-right" >
+                    <div class="d-1-image" style="visibility: hidden;" >
+                        <img src="" alt="" />
+                        <span>Prefeito</span>
                     </div>
-                    <div class="d-1-image small">
-                        <img src="images/isadora.jpeg" />
-                        Vice-Prefeito
+                    <div class="d-1-image small" style="visibility: hidden;">
+                        <img src="" />
+                        <span>Vice-Prefeito</span>
                     </div>
                 </div>
             </div>
@@ -76,6 +95,12 @@
         </div>
     </div>
 
+    <section>
+        <div class="button">NÃO SABE EM QUEM VOTAR? </br>
+        CLIQUE AQUI PARA VER A LISTA DE CANDIDATOS</div>
+        
+        
+    </section>
     <script src="assets/script/etapas.js"></script>
     <script src="assets/script/script.js"></script>
 </body>

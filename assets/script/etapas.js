@@ -1,38 +1,38 @@
 let etapas = [
     {
         titulo: 'DEPUTADO ESTADUAL',
-        numeros: 4,
+        numeros: 5,
         candidatos:[
             {
-                numero: '2001',
-                nome: 'Valntina',
+                numero: '20010',
+                nome: 'Valentina',
                 partido: 'partido dos Bebês',
                 fotos:[
-                    {url: 'imagens/valentina.jpg', legenda: 'Deputado Estadual'}
+                    {url: 'images/depestadual/valentina.jpeg', legenda: 'Deputado Estadual'}
                 ]
             },
             {
-                numero: '1911',
+                numero: '19111',
                 nome: 'Isadora',
                 partido: 'partido dos Bebês',
                 fotos:[
-                    {url: 'imagens/isadora.jpg', legenda: 'Deputado Estadual'}
+                    {url: 'images/depestadual/isadora.jpeg', legenda: 'Deputado Estadual'}
                 ]
             },
             {
-                numero: '1605',
-                nome: 'Laura',
+                numero: '16058',
+                nome: 'Laura Neres',
                 partido: 'partido dos Bebês',
                 fotos:[
-                    {url: 'imagens/lauriete.jpg', legenda: 'Deputado Estadual'}
+                    {url: 'images/depestadual/lauriete.jpeg', legenda: 'Deputado Estadual'}
                 ]
             },
             {
-                numero: '2704',
+                numero: '27041',
                 nome: 'Ana Laura',
                 partido: 'partido dos Bebês',
                 fotos:[
-                    {url: 'imagens/ana.jpg', legenda: 'Deputado Estadual'}
+                    {url: 'images/depestadual/ana.jpeg', legenda: 'Deputado Estadual'}
                 ]
             },
 
@@ -47,82 +47,96 @@ let etapas = [
                 nome: 'Larah Raquel',
                 partido: 'Partido dos Adolecentes',
                 fotos:[
-                    {url: 'imagens/larah.jpg', legenda: 'Deputado Federal'}
+                    {url: 'images/depfederal/larah.jpg', legenda: 'Deputado Federal'}
                 ]
             },
             {
                 numero: '3106',
-                nome: 'Alexsander',
+                nome: 'Alexsander Zanello',
                 partido: 'partido dos Adolecentes',
                 fotos:[
-                    {url: 'imagens/alexsander.jpg', legenda: 'Deputado Federal'}
+                    {url: 'images/depfederal/alexsander.jpeg', legenda: 'Deputado Federal'}
                 ]
             },
             {
                 numero: '2611',
-                nome: 'Inácio',
+                nome: 'Inácio Magno',
                 partido: 'partido dos Adolecentes',
                 fotos:[
-                    {url: 'imagens/inacio.jpg', legenda: 'Deputado Federal'}
+                    {url: 'images/depfederal/inacio.jpeg', legenda: 'Deputado Federal'}
                 ]
             },
             {
                 numero: '1566',
-                nome: 'Raquel',
+                nome: 'Raquel Macedo',
                 partido: 'partido dos Adolecentes',
                 fotos:[
-                    {url: 'imagens/raquel.jpg', legenda: 'Deputado Federal'}
+                    {url: 'images/depfederal/raquel.jpeg', legenda: 'Deputado Federal'}
                 ]
             },
+            ,
+            {
+                numero: '1570',
+                nome: 'Guilherme Ferreira',
+                partido: 'partido dos Adolecentes',
+                fotos:[
+                    {url: 'images/depfederal/guilherme.jpeg', legenda: 'Deputado Federal'}
+                ]
+            }
         ]
     },
     {
-        titulo: 'Presidente',
+        titulo: 'PRESIDENTE',
         numeros: 2,
         candidatos:[
             {
                 numero: '29',
                 nome: 'Lucas Eduardo',
                 partido: 'Partido The Mudelos',
+                vice: 'Enzo Souza Lima',
                 fotos:[
-                    {url: 'imagens/lucas.jpg', legenda: 'Presidente da Republica'},
-                    {url: 'imagens/enzo.jpg', legenda: 'Vice Presidente'}
+                    {url: 'images/presidente/lucas.jpeg', legenda: 'Presidente da Republica'},
+                    {url: 'images/presidente/vice/enzo.jpeg', legenda: 'Vice Presidente'}
                 ]
             },
             {
                 numero: '31',
                 nome: 'Áilla Almeida',
                 partido: 'Partido The Mudelos',
+                vice: 'Ana Laura',
                 fotos:[
-                    {url: 'imagens/ailla.jpg', legenda: 'Presidente da Republica'},
-                    {url: 'imagens/raila.jpg', legenda: 'Vice Presidente'}
+                    {url: 'images/presidente/ailla.jpeg', legenda: 'Presidente da Republica'},
+                    {url: 'images/presidente/vice/ana-laura.jpeg', legenda: 'Vice Presidente'}
                 ]
             },
             {
                 numero: '28',
                 nome: 'Nathalia Raquel',
                 partido: 'Partido The Mudelos',
+                vice: 'Maria Clara',
                 fotos:[
-                    {url: 'imagens/nathalia.jpg', legenda: 'Presidente da Republica'},
-                    {url: 'imagens/maria.jpg', legenda: 'Vice Presidente'}
+                    {url: 'images/presidente/nathalia.jpeg', legenda: 'Presidente da Republica'},
+                    {url: 'images/presidente/vice/maria.jpeg', legenda: 'Vice Presidente'}
                 ]
             },
             {
                 numero: '99',
                 nome: 'Nathan Fellipe',
                 partido: 'Partido The Mudelos',
+                vice: 'Saulo Neres',
                 fotos:[
-                    {url: 'imagens/nathan.jpg', legenda: 'Presidente da Republica'},
-                    {url: 'imagens/saulo.jpg', legenda: 'Vice Presidente'}
+                    {url: 'images/presidente/nathan.jpeg', legenda: 'Presidente da Republica'},
+                    {url: 'images/presidente/vice/saulo.jpeg', legenda: 'Vice Presidente'}
                 ]
             },
             {
                 numero: '26',
                 nome: 'Wilke Meireles',
                 partido: 'Partido The Mudelos',
+                vice: 'Nathanael',
                 fotos:[
-                    {url: 'imagens/wilke.jpg', legenda: 'Presidente da Republica'},
-                    {url: 'imagens/natanael.jpg', legenda: 'Vice Presidente'}
+                    {url: 'images/presidente/wilke.jpeg', legenda: 'Presidente da Republica'},
+                    {url: 'images/presidente/vice/nathanael.jpeg', legenda: 'Vice Presidente'}
                 ]
             }
         ]
