@@ -5,7 +5,7 @@ let etapas = [
         candidatos:[
             {
                 numero: '20010',
-                nome: 'Valentina',
+                nome: 'Valentina Lima',
                 partido: 'partido dos Bebês',
                 fotos:[
                     {url: 'images/depestadual/valentina.jpeg', legenda: 'Deputado Estadual'}
@@ -13,7 +13,7 @@ let etapas = [
             },
             {
                 numero: '19111',
-                nome: 'Isadora',
+                nome: 'Isadora Silva',
                 partido: 'partido dos Bebês',
                 fotos:[
                     {url: 'images/depestadual/isadora.jpeg', legenda: 'Deputado Estadual'}
@@ -152,3 +152,4 @@ let etapas = [
     },
     
 ];
+    
