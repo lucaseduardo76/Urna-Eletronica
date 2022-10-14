@@ -16,6 +16,35 @@ realizeFase()
 let numBox = cs('.numero');
 
 
+listcand()
+function listcand(){
+    boxTitle = c('.container-candidatos');
+    
+
+    for(let n in etapas){
+        boxTitle.innerHTML += `<div class="dep-estaduais dep">
+            <div class="titulo">${etapas[n].titulo}</div>
+            <div class="box-candidatos">
+                             
+            </div>
+        </div>`
+    }
+    boxList = document.querySelectorAll('.box-candidatos')
+    for(let n in etapas){
+        for(let i in etapas[n].candidatos){
+             boxList[n].innerHTML += `<div class="box">
+                <img src="${etapas[n].candidatos[i].fotos[0].url}" alt="">
+                <h3>${etapas[n].candidatos[i].nome}</h3>
+                <h4>Nº ${etapas[n].candidatos[i].numero}</h4>
+                </div>`
+        
+        }
+    }
+
+
+}
+
+
 
 function realizeFase(){     
     let numBoxverify = cs('.numero')
@@ -140,4 +169,12 @@ const confirma = () =>{
         }
     }
     checkNumEmpty = false
+}
+
+function openCandList(){
+    c('.sec-cand-list').style.display = 'block';    
+}
+
+function closeCandList(){
+    c('.sec-cand-list').style.display = 'none';    
 }

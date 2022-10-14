@@ -35,6 +35,15 @@ let etapas = [
                     {url: 'images/depestadual/ana.jpeg', legenda: 'Deputado Estadual'}
                 ]
             },
+            ,
+            {
+                numero: '13102',
+                nome: 'Ana Laura',
+                partido: 'partido dos Bebês',
+                fotos:[
+                    {url: 'images/depestadual/ana-laura.jpeg', legenda: 'Deputado Estadual'}
+                ]
+            }
 
         ]
     },
@@ -103,10 +112,10 @@ let etapas = [
                 numero: '31',
                 nome: 'Áilla Almeida',
                 partido: 'Partido The Mudelos',
-                vice: 'Ana Laura',
+                vice: 'Fernanda Souza',
                 fotos:[
                     {url: 'images/presidente/ailla.jpeg', legenda: 'Presidente da Republica'},
-                    {url: 'images/presidente/vice/ana-laura.jpeg', legenda: 'Vice Presidente'}
+                    {url: 'images/presidente/vice/fernanda.jpeg', legenda: 'Vice Presidente'}
                 ]
             },
             {
@@ -140,5 +149,6 @@ let etapas = [
                 ]
             }
         ]
-    }
+    },
+    
 ];

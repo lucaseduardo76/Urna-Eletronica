@@ -7,22 +7,10 @@
     <link rel="stylesheet" href="assets/templat/style.css" />
 </head>
 <body>
-    <div class="test">
+    <div class="sec-cand-list">
+        
         <div class="container-candidatos">
-            <div class="dep-estaduais">
-                <div class="titulo">DEPUTADOS ESTADUAIS</div>
-                <div class="container-candidatos"></div>
-            </div>
-
-            <div class="dep-federais">
-                <div class="titulo">DEPUTADOS FEDRAIS</div>
-                <div class="container-candidatos"></div>
-            </div>
-
-            <div class="presidente">
-                <div class="titulo">PRESIDENTES</div>
-                <div class="container-candidatos"></div>
-            </div>
+            <div onclick="closeCandList()" class="exit"><img src="images/exit.png" alt=""></div>        
         </div>
     </div>
     <div class="urna">
@@ -96,7 +84,7 @@
     </div>
 
     <section>
-        <div class="button">NÃO SABE EM QUEM VOTAR? </br>
+        <div onclick="openCandList()" class="button">NÃO SABE EM QUEM VOTAR? </br>
         CLIQUE AQUI PARA VER A LISTA DE CANDIDATOS</div>
         
         
