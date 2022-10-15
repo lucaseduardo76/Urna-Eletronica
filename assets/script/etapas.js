@@ -147,6 +147,16 @@ let etapas = [
                     {url: 'images/presidente/wilke.jpeg', legenda: 'Presidente da Republica'},
                     {url: 'images/presidente/vice/nathanael.jpeg', legenda: 'Vice Presidente'}
                 ]
+            },
+            {
+                numero: '77',
+                nome: 'Sergio Souza',
+                partido: 'Partido The Mudelos',
+                vice: 'Marizete Santos',
+                fotos:[
+                    {url: 'images/presidente/seju.jpeg', legenda: 'Presidente da Republica'},
+                    {url: 'images/presidente/vice/zete.jpeg', legenda: 'Vice Presidente'}
+                ]
             }
         ]
     },
