@@ -15,11 +15,9 @@ let checkNumEmpty;
 realizeFase()
 let numBox = cs('.numero');
 
-
 listcand()
 function listcand(){
-    boxTitle = c('.container-candidatos');
-    
+    boxTitle = c('.container-candidatos');    
 
     for(let n in etapas){
         boxTitle.innerHTML += `<div class="dep-estaduais dep">
@@ -32,16 +30,9 @@ function listcand(){
     boxList = document.querySelectorAll('.box-candidatos')
     for(let n in etapas){
         for(let i in etapas[n].candidatos){
-             boxList[n].innerHTML += `<div class="box">
-                <img src="${etapas[n].candidatos[i].fotos[0].url}" alt="">
-                <h3>${etapas[n].candidatos[i].nome}</h3>
-                <h4>Nº ${etapas[n].candidatos[i].numero}</h4>
-                </div>`
-        
+            boxList[n].innerHTML += `<div class="box"><img src="${etapas[n].candidatos[i].fotos[0].url}" alt=""><h3>${etapas[n].candidatos[i].nome}</h3><h4>Nº ${etapas[n].candidatos[i].numero}</h4></div>`        
         }
     }
-
-
 }
 
 
@@ -65,30 +56,32 @@ const clicou = (num) =>{
     for(let n = 0; n < numBox.length; n++){
         let checkText = numBox[n].textContent;
         i++     
+        
         if(checkText == '' && checkLoop == 0){
             console.log(numBox[n])
             numBox[n].innerHTML = num;
             listaNum[n] = num
-            numBox[n].classList.remove("pisca");
 
+            numBox[n].classList.remove("pisca");
             if(i < numBox.length){
                 numBox[i].classList.add("pisca");
-            }            
+            }    
+
             checkLoop = 1;                       
-        }      
-        
+        }              
     }
+
     numTot = listaNum.join('');
     for(let n in numBox){        
         if(numBox[n].textContent == ''){
             checkNumEmpty = false
         }
     }
+
     if(checkNumEmpty){
         let falseCad = true
         for(n in candidatos){
-            if(numTot == candidatos[n].numero ){
-                
+            if(numTot == candidatos[n].numero ){                
                 containerInfo.style.visibility = 'visible';   
                 goesTo.style.visibility = 'visible';
                 footerInfo.style.visibility = 'visible';
@@ -103,8 +96,6 @@ const clicou = (num) =>{
                     boxImgSmall.innerHTML = `<img src="${candidatos[n].fotos[1].url}" alt="" /> <span>${candidatos[n].fotos[1].legenda}</span>`;
                     boxImgSmall.style.visibility = 'visible';
                 }
-
-
             }
         }
 
@@ -113,8 +104,7 @@ const clicou = (num) =>{
             goesTo.style.visibility = 'visible';
             footerInfo.style.visibility = 'visible';
             containerInfo.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>';            
-        }
-            
+        }            
     }   
 }
 
@@ -128,8 +118,7 @@ const corrige = () =>{
     footerInfo.style.visibility = 'hidden';
     containerNumbox.style.visibility = 'visible';
     boxImg.style.visibility = 'hidden';
-    boxImgSmall.style.visibility = 'hidden';
-    
+    boxImgSmall.style.visibility = 'hidden';    
 }
 
 const branco = () =>{  
@@ -142,7 +131,6 @@ const branco = () =>{
     boxImg.style.visibility = 'hidden';
     boxImgSmall.style.visibility = 'hidden';
     checkNumEmpty = true
-
 }
 
 const confirma = () =>{
@@ -152,8 +140,7 @@ const confirma = () =>{
             listaNum = [];
             candidatos = etapas[fase].candidatos;
             numTot = 0;
-            c('.d-1-3').innerHTML = '<div class="numero pisca"></div><div class="numero "></div>';   
-            
+            c('.d-1-3').innerHTML = '<div class="numero pisca"></div><div class="numero "></div>';               
         
             containerInfo.style.visibility = 'hidden';   
             goesTo.style.visibility = 'hidden';

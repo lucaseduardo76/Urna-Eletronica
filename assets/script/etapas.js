@@ -137,7 +137,7 @@ let etapas = [
                     {url: 'images/presidente/nathan.jpeg', legenda: 'Presidente da Republica'},
                     {url: 'images/presidente/vice/saulo.jpeg', legenda: 'Vice Presidente'}
                 ]
-            },
+            }, 
             {
                 numero: '26',
                 nome: 'Wilke Meireles',
