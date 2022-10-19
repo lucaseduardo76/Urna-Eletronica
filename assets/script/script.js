@@ -22,15 +22,18 @@ function listcand(){
     for(let n in etapas){
         boxTitle.innerHTML += `<div class="dep-estaduais dep">
             <div class="titulo">${etapas[n].titulo}</div>
-            <div class="box-candidatos">
-                             
+            <div class="box-candidatos">                             
             </div>
         </div>`
     }
     boxList = document.querySelectorAll('.box-candidatos')
     for(let n in etapas){
         for(let i in etapas[n].candidatos){
-            boxList[n].innerHTML += `<div class="box"><img src="${etapas[n].candidatos[i].fotos[0].url}" alt=""><h3>${etapas[n].candidatos[i].nome}</h3><h4>Nº ${etapas[n].candidatos[i].numero}</h4></div>`        
+             boxList[n].innerHTML += `<div class="box">
+                <img src="${etapas[n].candidatos[i].fotos[0].url}" alt="">
+                <h3>${etapas[n].candidatos[i].nome}</h3>
+                <h4>Nº ${etapas[n].candidatos[i].numero}</h4>
+                </div>`        
         }
     }
 }
@@ -58,7 +61,6 @@ const clicou = (num) =>{
         i++     
         
         if(checkText == '' && checkLoop == 0){
-            console.log(numBox[n])
             numBox[n].innerHTML = num;
             listaNum[n] = num
 
@@ -68,7 +70,7 @@ const clicou = (num) =>{
             }    
 
             checkLoop = 1;                       
-        }              
+        }   
     }
 
     numTot = listaNum.join('');
@@ -118,7 +120,7 @@ const corrige = () =>{
     footerInfo.style.visibility = 'hidden';
     containerNumbox.style.visibility = 'visible';
     boxImg.style.visibility = 'hidden';
-    boxImgSmall.style.visibility = 'hidden';    
+    boxImgSmall.style.visibility = 'hidden';
 }
 
 const branco = () =>{  
@@ -140,8 +142,7 @@ const confirma = () =>{
             listaNum = [];
             candidatos = etapas[fase].candidatos;
             numTot = 0;
-            c('.d-1-3').innerHTML = '<div class="numero pisca"></div><div class="numero "></div>';               
-        
+            c('.d-1-3').innerHTML = '<div class="numero pisca"></div><div class="numero "></div>';            
             containerInfo.style.visibility = 'hidden';   
             goesTo.style.visibility = 'hidden';
             footerInfo.style.visibility = 'hidden';
@@ -149,10 +150,8 @@ const confirma = () =>{
             boxImg.style.visibility = 'hidden';
             boxImgSmall.style.visibility = 'hidden';
             realizeFase()
-            console.log(checkNumEmpty)
         }else{
             c('.tela').innerHTML = '<div class="aviso--gigante pisca">FIM</div>'
-            console.log(checkNumEmpty)
         }
     }
     checkNumEmpty = false
