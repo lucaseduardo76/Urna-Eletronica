@@ -220,13 +220,13 @@ section .button:hover{
      color: #fff;
 }
 .box-candidatos{
-    
     height: 80%;
     margin-top: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
+    flex-wrap: wrap;
     
 }
 .sec-cand-list{
@@ -261,6 +261,7 @@ section .button:hover{
 .box{
     border: rgb(255, 255, 255) 3px solid;
     font-size: 17px;
+    width: 200px;
 }
 .box img{
     max-height: 150px;
