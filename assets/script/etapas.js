@@ -149,7 +149,7 @@ let etapas = [
                 ]
             },
             {
-                numero: '77',
+                numero: '17',
                 nome: 'Sergio Souza',
                 partido: 'Partido The Mudelos',
                 vice: 'Marizete Santos',
