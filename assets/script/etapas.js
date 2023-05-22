@@ -104,7 +104,7 @@ let etapas = [
                 partido: 'The Mudelos',
                 vice: 'Enzo Souza Lima',
                 fotos:[
-                    {url: 'images/presidente/lucas.jpeg', legenda: 'Presidente da Republica'},
+                    {url: 'images/presidente/lucas.jpg', legenda: 'Presidente da Republica'},
                     {url: 'images/presidente/vice/enzo.jpeg', legenda: 'Vice Presidente'}
                 ]
             },
