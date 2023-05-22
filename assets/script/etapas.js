@@ -38,7 +38,7 @@ let etapas = [
             ,
             {
                 numero: '13102',
-                nome: 'Ana Laura',
+                nome: 'Ana Laura Guerra',
                 partido: 'Partido dos Bebês',
                 fotos:[
                     {url: 'images/depestadual/ana-laura.jpeg', legenda: 'Deputado Estadual'}
